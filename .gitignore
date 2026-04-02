@@ -1,0 +1,29 @@
+# Per-firm settings (contains firm-specific templates, assumptions, branding)
+**/.claude/*.local.md
+
+# Deal context directories (contain deal-specific data and artifacts)
+deals/
+portfolios/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

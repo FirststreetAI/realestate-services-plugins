@@ -1,0 +1,58 @@
+{
+  "name": "realestate-services-plugins",
+  "owner": {
+    "name": "Anthropic"
+  },
+  "plugins": [
+    {
+      "name": "real-estate-analysis",
+      "source": "./real-estate-analysis",
+      "description": "Core real estate analysis with shared MCP connectors, underwriting, valuation, rent roll normalization, and reporting skills."
+    },
+    {
+      "name": "acquisitions-investments",
+      "source": "./acquisitions-investments",
+      "description": "CRE acquisition workflows: deal screening, underwriting, bid strategy, IC memos, diligence tracking, and close readiness."
+    },
+    {
+      "name": "asset-management",
+      "source": "./asset-management",
+      "description": "Asset and portfolio management: monthly reporting, reforecasting, hold-sell analysis, business plans, fund performance, and investor updates."
+    },
+    {
+      "name": "capital-markets",
+      "source": "./capital-markets",
+      "description": "Borrower-side debt and structured finance: loan sizing, refinance comparison, covenant surveillance, maturity watchlists, and financing memos."
+    },
+    {
+      "name": "development-construction",
+      "source": "./development-construction",
+      "description": "Development workflows: site feasibility, entitlements, budgets, draw packages, GMP comparison, and lease-up monitoring."
+    },
+    {
+      "name": "property-operations",
+      "source": "./property-operations",
+      "description": "Property operations: budgeting, CAM reconciliation, expense audits, collections monitoring, vendor review, and benchmarking."
+    },
+    {
+      "name": "leasing",
+      "source": "./leasing",
+      "description": "Leasing workflows: pipeline review, proposal comparison, lease abstracting, mark-to-market, renewal strategy, and broker briefs."
+    },
+    {
+      "name": "esg-sustainability",
+      "source": "./esg-sustainability",
+      "description": "ESG and sustainability workflows: GRESB submission prep, carbon footprint, utility benchmarking, climate risk, green lease audits, and certification tracking."
+    },
+    {
+      "name": "costar",
+      "source": "./partner-built/costar",
+      "description": "CoStar Group skills: advanced comp analysis, submarket deep-dives, tenant prospecting, and market forecasting powered by CoStar data."
+    },
+    {
+      "name": "yardi",
+      "source": "./partner-built/yardi",
+      "description": "Yardi Systems skills: Voyager-optimized lease administration, GL reporting, maintenance workflows, and portfolio data extraction."
+    }
+  ]
+}
